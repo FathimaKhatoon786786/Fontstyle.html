@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Font Styles</title>
+    <style>
+    body {
+        padding:40px;
+        line-height:1.6;
+    } 
+    
+    h1 {
+     font-family:'Georgia',serif;
+     font-size:36px;
+     margin-bottom:20px;
+     color:maroon;   
+    }   
+    
+    h2 {
+      font-family:'Arial',sans-serif;
+      font-size:28px;
+      color:navy;
+      margin-top:30px;  
+    }
+    .classic{
+        font-family:'Times New Roman',Times,serif;
+        font-size:18px;
+        color:darkgreen;
+    }
+    .modern{
+        font-family:'Segoe UI',Tahoma,Geneva, Verdana,sans-serif;
+        font-size:18px;
+        color: midnightblue; 
+    }
+    .code-style{
+        font-family:'Courier New',Courier,
+        monospace;
+        font-size:18px;
+        background-color:black;
+        color:pink;
+        padding:10px;
+        border-left:4px solid gray;
+        margin-top:10px;
+    }
+    blockquote{
+        font-family:'Garamond',serif;
+        font-size:20px;
+        color:red;
+        border-left:4px solid silver;
+        Padding-left:15px;
+        margin-top:20px;
+        font-style: italic;
+    }
+    .fancy{
+        font-family:'Lucid Handwriting',Cursive;
+        font-size:22px;
+        color:purple;
+        margin-top:20px;
+    }
+    </style>
+</head>
+<body>
+ <h1> Font Style ShowCase</h1>   
+ 
+ <h2>Classic Font</h2>
+ <p class="classic"> This paragraph uses the classic "Times New Roman" font family.Its traditionally used in print and formal documents.</p>
+ 
+ <h2>Modern Font</h2>
+ <p class="modern"> This paragraph uses the modern and clean"Segoe UI" font, which is common in UI Design and web apllications.</p>
+ 
+ <h2>Monospace Font (code style)</h2>
+ <div class="code-style">
+     
+  const greeting="Hellow,World!"; <br>
+  console.log(greeting);   
+ </div>
+ 
+ <h2> Quote Font(Garamond) </h2>
+ <blockquote>
+  "Simplicity is the ultimate sophistication."  
+   - Leonardo da Vinci
+ </blockquote>
+ 
+ <h2>Fancy Cursive Font</h2>
+ <p class="fancy">
+     creativity is Intelligence having fun.
+ </p>
+</body>
+  </html>
